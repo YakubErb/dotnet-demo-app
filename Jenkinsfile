@@ -3,6 +3,6 @@ node {
         build 'BuildTodoApp'
     }
     stage('Results') {
-        build 'TestTodoApp'
+        build 'TestBuildAppTodo'
     }
 }
